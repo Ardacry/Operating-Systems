@@ -1,0 +1,6 @@
+Arda Kıray
+21302072
+
+This folder includes the Step1 and Step2 modules of the project
+in partA.c and partB.c files. Kernel object files can be obtained
+by issuing a simple "make" command.

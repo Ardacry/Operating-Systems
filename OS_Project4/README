@@ -1,0 +1,46 @@
+-------------------------------------------------
+This text files contains the description of the
+items in the folder.
+Author : Arda Kıray (21302072)
+-------------------------------------------------
+
+The folder contains two files with .c postfixes
+called diskschedule.c and resultCalculator.c
+
+It additionally contains a MakeFile to create executables
+for each source code files. The user can type "make" from
+the terminal while in the folder and obtain executables.
+Furthermore, "rm clean" will clean all existing executables.
+
+diskschedule.c :
+
+diskschedule.c contains the C source code of a program
+that simulates the disk scheduling algorithms FCFS, SSTF,
+SCAN, C-SCAN, LOOK and C-LOOK. It takes headposition of the
+moving arm as an input argument. Additionally, it takes a file
+input but if no supplied, it generates 1000 requests randomly.
+
+The program can be called from terminal as :
+
+./diskschedule <headposition> <inputfile>
+
+The program creates an output file and writes the results in it.
+
+resultCalculator.c :
+
+resultCalculator.c contains the C source code of a program
+that calculates the mean and standard deviation of the each programs
+total head movement. It uses the "Results" file to calculate. The 
+"Results" file contains each 100 iteration of algorithms total
+head movement written line by line.
+
+The program can be called from terminal as :
+
+./resultCalculator
+
+Program writes the results on to the screen.
+
+Additionally the folder contains a report with .pdf format that
+has a table of average and standard deviation values of each algorithms
+with 100 random iterations. Also folder has a "TestResults" text file
+that contains the outcome of every 100 iterations with each algorithms.
